@@ -1,4 +1,4 @@
-<h1 align="center">easy education </h1>
+<h1 align="center">Easy Education </h1>
 <h2 align="center">
 
 ![https://img.shields.io/badge/Licience-MIT-green](https://img.shields.io/badge/Licience-MIT-green)
@@ -17,7 +17,7 @@ The aim of this project is to provide free learning and test skills.Experts can 
 
 | Database | Front-End | Back-End   |
 | -------- | --------- | ---------- |
-| mangodb   | React      | Node.js    |
+| mangoDB   | React      | Node.js    |
 | &nbsp;   | React-bootstrap | Express.js |
 
 ## Contribution Guidelines
