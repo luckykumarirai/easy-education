@@ -2,7 +2,7 @@
 <h2 align="center">
 
 ![https://img.shields.io/badge/Licience-MIT-green](https://img.shields.io/badge/Licience-MIT-green)
-[![gitter](https://img.shields.io/badge/Chat-on%20gitter-red)](#)
+[![discord](https://img.shields.io/badge/Chat-on%20discord-red)](https://discord.gg/vAYgf2sc)
 [![GitHub issues](https://img.shields.io/github/issues/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/issues)
 [![GitHub forks](https://img.shields.io/github/forks/luckykumarirai/easy-education)](https://github.com/luckykumarirai/easy-education/network)
 [![GitHub stars](https://img.shields.io/github/stars/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/pulls)
