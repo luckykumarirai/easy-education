@@ -1,5 +1,15 @@
-## About
+<h2 align="center">
 
+![https://img.shields.io/badge/Licience-MIT-green](https://img.shields.io/badge/Licience-MIT-green)
+[![gitter](https://img.shields.io/badge/Chat-on%20gitter-red)](#)
+[![GitHub issues](https://img.shields.io/github/issues/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/issues)
+[![GitHub forks](https://img.shields.io/github/forks/luckykumarirai/easy-education)](https://github.com/luckykumarirai/easy-education/network)
+[![GitHub stars](https://img.shields.io/github/stars/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/pulls)
+![Contribotion](https://img.shields.io/badge/Contribution-Welcome-brightgreen)
+
+</h2>
+
+## About
 The aim of this project is to provide free learning and test skills.
 
 ## Tech Stack
