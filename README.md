@@ -17,7 +17,7 @@ The aim of this project is to provide free learning and test skills.Experts can 
 
 | Database | Front-End | Back-End   |
 | -------- | --------- | ---------- |
-| mangoDB   | React      | Node.js    |
+| MangoDB   | React      | Node.js    |
 | &nbsp;   | React-bootstrap | Express.js |
 
 ## Contribution Guidelines
@@ -27,7 +27,7 @@ The aim of this project is to provide free learning and test skills.Experts can 
 2.Clone the repo:
 
 ```
-git clone https://github.com/luckykumarirai/easy-education.git
+git clone https://github.com/<your username>/easy-education.git
 ```
 
 3.Change working directory to project:
