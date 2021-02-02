@@ -7,7 +7,7 @@ The aim of this project is to provide free learning and test skills.
 | Database | Front-End | Back-End   |
 | -------- | --------- | ---------- |
 | mangodb   | React      | Node.js    |
-| &nbsp;   | React-stack | Express.js |
+| &nbsp;   | React-bootstrap | Express.js |
 
 ## Contribution Guidelines
 
@@ -33,17 +33,16 @@ cd server
 ```
 6.Type ```npm install``` to install all packages for the server.
 
-7.To run server
-```
-cd server
-```
+7.To run project
+
 ```
 npm start
 ```
-8.To run project
+8.To run server
 
 ```
-cd easy-education
+cd server
+
 ```
 ```
 nodemon
