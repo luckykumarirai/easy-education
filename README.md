@@ -11,7 +11,7 @@
 </h2>
 
 ## About
-The aim of this project is to provide free learning and test skills.Experts can share the knowledge by writing by an article here that help learner to gain knowledge.
+The aim of this project is to provide free learning and test skills. Experts can share the knowledge by writing an article here that help learner to gain knowledge.
 
 ## Tech Stack
 
