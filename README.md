@@ -1,3 +1,4 @@
+<h1 align="center">easy education </h1>
 <h2 align="center">
 
 ![https://img.shields.io/badge/Licience-MIT-green](https://img.shields.io/badge/Licience-MIT-green)
@@ -10,7 +11,7 @@
 </h2>
 
 ## About
-The aim of this project is to provide free learning and test skills.
+The aim of this project is to provide free learning and test skills.Experts can share the knowledge by writing by an article here that help learner to gain knowledge.
 
 ## Tech Stack
 
