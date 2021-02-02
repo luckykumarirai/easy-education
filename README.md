@@ -42,7 +42,6 @@ npm start
 
 ```
 cd server
-
 ```
 ```
 nodemon
