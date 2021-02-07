@@ -13,6 +13,8 @@
 ## About
 The aim of this project is to provide free learning and test skills. Experts can share the knowledge by writing an article here that help learner to gain knowledge.
 
+Join Discord : https://discord.gg/vAYgf2sc
+
 ## Tech Stack
 
 | Database | Front-End | Back-End   |
