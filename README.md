@@ -57,3 +57,11 @@ cd server
 ```
 nodemon
 ```
+## Open Source Programs we have been associated with: 
+
+<p align="center">
+<a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/crosswoc.png" width="25%"></a>
+</p>
+
+### Thanks :heart:
+
