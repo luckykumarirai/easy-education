@@ -7,6 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/luckykumarirai/easy-education)](https://github.com/luckykumarirai/easy-education/network)
 [![GitHub stars](https://img.shields.io/github/stars/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/pulls)
 ![Contribotion](https://img.shields.io/badge/Contribution-Welcome-brightgreen)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/luckykumarirai/easy-education?logo=github)](https://github.com/hound77/jwoc-archive) [![GitHub last commit](https://img.shields.io/github/last-commit/luckykumarirai/easy-education?logo=git&logoColor=white)](https://github.com/luckykumarirai/easy-education/commits/master)
 
 </h2>
 
