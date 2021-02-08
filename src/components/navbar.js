@@ -8,7 +8,7 @@ function NavBar(){
   return (
     <>
       <Navbar bg="dark" expand="lg" variant="dark">
-        <Navbar.Brand href="#home" className="navlink" style={{color:'orange'}}>Easy education</Navbar.Brand>
+        <Navbar.Brand href="#home" className="navlink" style={{color:'orange'}}>Easy eduction</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
