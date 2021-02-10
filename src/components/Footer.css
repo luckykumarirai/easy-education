@@ -1,0 +1,39 @@
+.custom-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+footer ul {
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+  border-bottom: 2px dotted #6c6c6c;
+}
+footer a {
+  color: inherit;
+  width: 100%;
+}
+footer li {
+  display: inline-block;
+  margin: 20px 2%;
+}
+@media (max-width: 576px) {
+  footer li {
+    display: block;
+    margin: 0;
+  }
+}
+footer li a {
+  color: #fff;
+  font-size: 13px;
+}
+.custom-dropdown {
+  background-color: transparent;
+}
+footer a svg {
+  font-size: 25px;
+}
+.copyright {
+  font-size: 12px;
+}
