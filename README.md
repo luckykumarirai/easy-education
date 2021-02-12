@@ -2,7 +2,7 @@
 <h2 align="center">
 
 ![https://img.shields.io/badge/Licience-MIT-green](https://img.shields.io/badge/Licience-MIT-green)
-[![discord](https://img.shields.io/badge/Chat-on%20discord-red)](https://discord.gg/vAYgf2sc)
+[![discord](https://img.shields.io/badge/Chat-on%20discord-red)](https://discord.gg/xkVDdnxuGy)
 [![GitHub issues](https://img.shields.io/github/issues/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/issues)
 [![GitHub forks](https://img.shields.io/github/forks/luckykumarirai/easy-education)](https://github.com/luckykumarirai/easy-education/network)
 [![GitHub stars](https://img.shields.io/github/stars/luckykumarirai/easy-education?style=plastic)](https://github.com/luckykumarirai/easy-education/pulls)
@@ -14,7 +14,7 @@
 ## About
 The aim of this project is to provide free learning and test skills. Experts can share the knowledge by writing an article here that help learner to gain knowledge.
 
-Join Discord : https://discord.gg/vAYgf2sc
+Join Discord : https://discord.gg/xkVDdnxuGy
 
 ## Tech Stack
 
