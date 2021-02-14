@@ -2,15 +2,14 @@ import {Navbar,Nav,NavDropdown,FormControl,Button,Form,InputGroup} from 'react-b
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as Icon from 'react-bootstrap-icons';
-import {Link} from "react-router-dom"
 
-
-function NavBar(){
+// Header component will be shown on sign in & Sign up page. It is similar to navbar except that this compenent does not have
+// signup & Signin button as the user is already on one of these two pages.
+function Header(){
   return (
     <>
       <Navbar bg="dark" expand="lg" variant="dark">
-        
-        <Navbar.Brand href="#home" className="navlink" style={{color:'orange'}}>Easy education</Navbar.Brand>
+        <Navbar.Brand href="/" className="navlink" style={{color:'orange'}}>Easy education</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -24,22 +23,22 @@ function NavBar(){
           <Nav.Link className="navlink" href="#about" active >About Us</Nav.Link>
           <Nav.Link className="navlink" href="#contact" active >Contact Us</Nav.Link>
           </Nav>
-          <Form inline>
+          {/* <Form inline>
           <InputGroup>
             <FormControl placeholder="Search..." aria-label="Username"  aria-describedby="search"/>
             <InputGroup.Prepend>
                 <InputGroup.Text type="submit" id="search" style={{borderTopRightRadius:'3px',borderBottomRightRadius:'3px'}}><Icon.Search/></InputGroup.Text>
             </InputGroup.Prepend>
             </InputGroup>
-          </Form>
-          {/* <Nav> */}
-            <Link  to="/Signin" ><Button style={{marginLeft: '10px', marginRight:'10px'}} variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Link>
-            <Link  to="/Signup" ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Link>
-          {/* </Nav> */}
+          </Form> */}
+          {/* <Nav>
+            <Nav.Link  href="/Signin" active ><Button variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Nav.Link>
+            <Nav.Link  href="/Signup" active ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Nav.Link>
+          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
       </>
 
 );
 }
-export default NavBar;
+export default Header;
