@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import {Link} from "react-router-dom";
-import Header from './header';
 
 
 // The Header component is little different from the navbar component, it does not have signin & signup button as user will on
@@ -58,8 +55,8 @@ class Signup extends Component {
   render() {
     return (
       <>
-          <Header />
-                  <Card style={{ width: "30%", marginLeft: "auto", marginRight: "auto", marginTop:'40px'}}>
+          
+                  <Card style={{ width: "40vw", marginLeft: "auto", marginRight: "auto", marginTop:'4vh'}}>
           <Card.Header
             style={{
               backgroundColor: "#6c6c6c",
@@ -91,21 +88,21 @@ class Signup extends Component {
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
               <Form.Group
-                style={{ textAlign: "left", marginBottom:'8px' }}
+                style={{ textAlign: "left", marginBottom:'1.6vh' }}
                 controlId="formBasicPassword"
                 onChange={(e) => this.userTyping('passwordConfirmation',e)}
               >
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control type="text" placeholder="Re-enter Password" />
               </Form.Group>
-                <Form.Group style={{textAlign: 'left',fontSize:'12px'}}>
+                <Form.Group style={{textAlign: 'left',fontSize:'1.5vh'}}>
                 <Link to="/Signin"><a>Already have an account? Sign in</a></Link>
                 </Form.Group>
               
 
               {
                     this.state.signupError ? 
-                    <Form.Text style={{paddingBottom: '5px'}} className="text-danger">
+                    <Form.Text style={{paddingBottom: '0.6vh'}} className="text-danger">
                     {this.state.signupError}
                   </Form.Text>
                     :
@@ -118,7 +115,7 @@ class Signup extends Component {
           </Card.Body>
         </Card>
 
-        <Footer />
+        
       </>
     );
   }

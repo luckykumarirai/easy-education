@@ -1,8 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Home from './components/Home';
 import Signup from './components/Signup';
 import Signin from './components/Signin';
+
+import NavBar from "./components/navbar";
+import Footer from "./components/Footer";
 
 
 import {
@@ -20,13 +22,18 @@ function App() {
 
       <Switch>
           <Route exact path="/">
-            <Home />
+            <NavBar />
+            <Footer />
           </Route>
           <Route exact path="/Signup">
+             <NavBar />
             <Signup />
+            <Footer />
           </Route>
           <Route exact path="/Signin">
+          <NavBar />
             <Signin />
+            <Footer />
           </Route>
           
       </Switch>

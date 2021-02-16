@@ -32,10 +32,10 @@ function NavBar(){
             </InputGroup.Prepend>
             </InputGroup>
           </Form>
-          {/* <Nav> */}
-            <Link  to="/Signin" ><Button style={{marginLeft: '10px', marginRight:'10px'}} variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Link>
-            <Link  to="/Signup" ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Link>
-          {/* </Nav> */}
+          <Nav>
+            <Nav.Link  href="/Signin" active ><Button variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Nav.Link>
+            <Nav.Link  href="/Signup" active ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
       </>
