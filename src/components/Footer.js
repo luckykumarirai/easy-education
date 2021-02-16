@@ -18,7 +18,7 @@ function Footer() {
     }
     `}
       </style>
-      <footer className="bg-dark text-white custom-footer">
+      <footer className="bg-dark text-white custom-footer text-center">
         <Navbar.Brand
           href="#home"
           className="navlink"
