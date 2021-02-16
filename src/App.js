@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/Footer";
-import {Home} from "./home";
+import {Home} from "./components/home";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Button } from "react-bootstrap";
 

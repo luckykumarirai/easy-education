@@ -1,14 +1,13 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, Container, Row, Col, Button} from "react-bootstrap";
-import video from "./video/video.mp4";
 import "./home.css";
 const Home = () =>  {
     return (
         <>
             <div class="home">
             <video loop muted autoPlay preload="auto" >
-            <source src={video} type="video/mp4"/>
+            <source src="video/video.mp4" type="video/mp4"/>
             </video>
             <div class="col d-flex justify-content-center">
                 <Card style={{width: '75vh', marginTop:'6%', opacity:'0.8', background:'black', color:'white'}}>
