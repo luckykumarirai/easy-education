@@ -2,8 +2,6 @@ import React from 'react'
 import "./Aboutus.css";
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
-import image from "../images/why-us.png";
-import mission from "../images/mission.png";
 
 export default function Aboutus() {
     return (
@@ -21,7 +19,7 @@ export default function Aboutus() {
                 <Card className="border-0 mt-5">
                     <Card.Body>
                         <Card.Text className="d-flex justify-content-center">
-                            <img className="image" src={image} />
+                            <img className="image" src="why-us.png"/>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -30,7 +28,7 @@ export default function Aboutus() {
                 <Card className=" bottom border-0">
                     <Card.Body>
                         <Card.Text className="d-flex justify-content-center">
-                            <img className="mission" src={mission}/>
+                            <img className="mission" src="mission.png"/>
                         </Card.Text>
                     </Card.Body>
                 </Card>
