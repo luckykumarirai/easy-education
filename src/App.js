@@ -4,20 +4,20 @@ import NavBar from "./components/navbar";
 import Footer from "./components/Footer";
 import {Home} from "./components/home";
 import {Contact} from "./components/Contact";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { Button } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//import { Button } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+    <NavBar />
     <Router>
       <Switch>
-      <Route exact path="/contact" component={Contact}/>
-          <Link to='/contact'>Go to Contact Page</Link>
+        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/home" component={Home}/>
       </Switch>
     </Router>
-      {/* <Footer /> */}
+    <Footer />
     </div>
   );
 }
