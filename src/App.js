@@ -13,14 +13,12 @@ function App() {
     <Router>
       <NavBar />
        <Switch>
-		      <Route exact path="/home" component={Home}/>
-          <Link to='/home'>Go to Home Page</Link>
+		      <Route exact path="/" component={Home}/>
+          {/* <Link to='/home'>Go to Home Page</Link> */}
           <Route path="/Aboutus" exact component={Aboutus} />
 	    </Switch>
     <Footer />
     </Router>
-      {/* <Footer /> */}
-    </div>
   );
 }
 
