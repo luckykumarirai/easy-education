@@ -7,7 +7,7 @@ export default function Aboutus() {
     return (
         <div className="about">
             <CardDeck>
-                <Card className=" border-0 mt-5">
+                <Card className=" aboutuscard border-0 mt-5">
                     <Card.Img variant="top" />
                     <Card.Body className="topcard">
                         <Card.Title className="heading text-center"><h1>Why us ?</h1></Card.Title>
@@ -16,7 +16,7 @@ export default function Aboutus() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className="border-0 mt-5">
+                <Card className="aboutuscard border-0 mt-5">
                     <Card.Body>
                         <Card.Text className="d-flex justify-content-center">
                             <img className="image" src="why-us.png"/>
@@ -25,14 +25,14 @@ export default function Aboutus() {
                 </Card>
             </CardDeck>
             <CardDeck>
-                <Card className=" bottom border-0">
+                <Card className="aboutuscard bottom border-0">
                     <Card.Body>
                         <Card.Text className="d-flex justify-content-center">
                             <img className="mission" src="mission.png"/>
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className="bottom border-0">
+                <Card className="aboutuscard bottom border-0">
                     <Card.Img variant="top" />
                     <Card.Body className=" bottomcard topcard">
                         <Card.Title className="heading text-center"><h1>Our Mission..</h1></Card.Title>
