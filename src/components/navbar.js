@@ -19,7 +19,7 @@ function NavBar(){
             <NavDropdown.Divider />
             <NavDropdown.Item className="textstyle" href="#action/3.4">Gate</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className="navlink" href="#about" active >About Us</Nav.Link>
+          <Nav.Link className="navlink" href="/Aboutus" active >About Us</Nav.Link>
           <Nav.Link className="navlink" href="/contact" active >Contact Us</Nav.Link>
           </Nav>
           <Form inline>

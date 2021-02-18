@@ -1,0 +1,55 @@
+.about,.aboutuscard{
+    background-color: rgb(89, 173, 173);
+    overflow: hidden;
+}
+/* .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+} */
+
+.text{
+    color:rgb(233, 233, 233);
+    margin: 2rem;
+}
+.heading{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px rgb(9, 106, 136), 0 0 5px rgb(247, 247, 247);
+}
+.topcard{
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: rgba(161, 12, 12,0.8);
+    box-shadow: 10px 10px 10px rgb(14, 14, 14), 0 0 5px rgb(247, 247, 247);
+    border-radius: 20px;
+}
+.bottom{
+    margin-top: 30px;
+}
+@media (max-width: 900px){
+   .image{
+    width:400px;
+ }
+ .topcard{
+    background-color: rgba(161, 12, 12,0.8);
+    border-radius: 20px;
+}
+.text{
+    color:rgb(233, 233, 233);
+    margin: 0rem;
+}
+}
+@media (max-width: 500px){
+    .image{
+        width:300px;
+     }
+     .mission{
+         display: none;
+     }
+     .bottom{
+        margin-top: 0px;
+     }
+     .text{
+        color:rgb(233, 233, 233);
+        margin: 0rem;
+    }
+}
