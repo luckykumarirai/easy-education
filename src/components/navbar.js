@@ -31,8 +31,8 @@ function NavBar(){
             </InputGroup>
           </Form>
           <Nav>
-            <Nav.Link  href="#signin" active ><Button variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Nav.Link>
-            <Nav.Link  href="#signup" active ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Nav.Link>
+            <Nav.Link  href="/Signin" active ><Button variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Nav.Link>
+            <Nav.Link  href="/Signup" active ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

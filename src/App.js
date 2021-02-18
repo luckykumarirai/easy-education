@@ -4,6 +4,8 @@ import NavBar from "./components/navbar";
 import Footer from "./components/Footer";
 import {Home} from "./components/home";
 import {Contact} from "./components/Contact";
+import Signup from "./components/Signup";
+import Signin from "./components/Signin";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Aboutus from "./components/Aboutus";
 //import { Button } from "react-bootstrap";
