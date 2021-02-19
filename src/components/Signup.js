@@ -49,16 +49,18 @@ class Signup extends Component {
         return;
     }
 
-    const newUser = {
+    axios.post('http://localhost:5000/user/Signup',{
       email:  this.state.email,
       password: this.state.password
-    }
-
-    axios.post('http://localhost:5000/user/Signup',newUser)
+    })
     .then((res) => {
       console.log(res);
+     alert(res.data.message);
+    
+    }).catch((err) => {
+      console.log(err);
     })
-    alert('Thanks '+this.state.email+ ' for registering with us!');
+    
   };
 
   render() {
