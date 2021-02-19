@@ -8,7 +8,7 @@ import Signup from "./components/Signup";
 import Signin from "./components/Signin";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Aboutus from "./components/Aboutus";
-//import { Button } from "react-bootstrap";
+import TermsAndConditions from "./components/TermsAndConditions";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="/Aboutus" exact component={Aboutus} />
         <Route exact path="/Signup" component={Signup}/>
         <Route exact path="/Signin" component={Signin}/>
+        <Route path="/Terms-and-Conditions" exact component={TermsAndConditions} />
       </Switch>
     </Router>
     <Footer />
