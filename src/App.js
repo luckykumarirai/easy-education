@@ -8,7 +8,7 @@ import Signup from "./components/Signup";
 import Signin from "./components/Signin";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Aboutus from "./components/Aboutus";
-//import { Button } from "react-bootstrap";
+import TermsAndConditions from "./components/TermsAndConditions";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/home" component={Home}/>
         <Route path="/Aboutus" exact component={Aboutus} />
+        <Route path="/Terms-and-Conditions" exact component={TermsAndConditions} />
       </Switch>
     </Router>
     <Footer />
