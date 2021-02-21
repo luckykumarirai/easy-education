@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import {Link} from "react-router-dom";
+import axios from 'axios';
 
 
 
@@ -37,7 +38,17 @@ class Signin extends Component {
   submitSignin = (e) => {
       e.preventDefault();
 
-    alert('Welcome '+this.state.email);
+    axios.post('http://localhost:5000/user/Signin',{
+      email:  this.state.email,
+      password: this.state.password
+    })
+    .then((res) => {
+      console.log(res);
+     alert(res.data.message);
+    
+    }).catch((err) => {
+      console.log(err);
+    })
   };
 
   render() {

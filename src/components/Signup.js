@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import {Link} from "react-router-dom";
+import axios from 'axios';
 
 
 // The Header component is little different from the navbar component, it does not have signin & signup button as user will on
@@ -48,8 +49,18 @@ class Signup extends Component {
         return;
     }
 
-    alert('Thanks '+this.state.email+ ' for registering with us!');
-    console.log("form is submitting.................");
+    axios.post('http://localhost:5000/user/Signup',{
+      email:  this.state.email,
+      password: this.state.password
+    })
+    .then((res) => {
+      console.log(res);
+     alert(res.data.message);
+    
+    }).catch((err) => {
+      console.log(err);
+    })
+    
   };
 
   render() {
