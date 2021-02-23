@@ -39,8 +39,8 @@
    <td>
       <ul>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/25'>#25</a></li>
-        <li><a href=' https://github.com/luckykumarirai/easy-education/pull/30'>#30</a></li>
-        </ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/30'>#30</a></li>
+     </ul>
    </td>
    <td>
         <ul>
