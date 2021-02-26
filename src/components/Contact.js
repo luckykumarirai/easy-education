@@ -38,6 +38,7 @@ const Contact = () =>  {
                     </Card.Body>
                 </Card>
             </div>
+            
         </>
     )
 }
