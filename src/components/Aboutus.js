@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Aboutus.css";
+import Footer from "./Footer";
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 
@@ -47,6 +48,7 @@ export default function Aboutus() {
                     </Card.Body>
                 </Card>
             </CardDeck>
+            <Footer />
         </div>
     )
 }

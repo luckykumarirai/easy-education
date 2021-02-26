@@ -1,11 +1,10 @@
-.custom-footer {
+.newFooter {
   bottom: 0;
   width: 100%;
-  padding: 20px;
-  position: fixed;
+  padding: 5px;
 }
 footer ul {
-  padding: 10px 0;
+  padding: 0px 0;
   margin: 0;
   width: 100%;
   border-bottom: 2px dotted #6c6c6c;
@@ -14,26 +13,35 @@ footer a {
   color: inherit;
   width: 100%;
 }
-footer li {
+footer li.listHeading {
   display: inline-block;
-  margin: 20px 2%;
+  margin: 10px 2%;
 }
+
+footer li.listFooter{
+  display: block;
+  margin: 0px;
+}
+.form{
+  height: 20%;
+  width: 100%;
+}
+footer li.mob{
+  display: none;
+}
+
 @media (max-width: 576px) {
-  footer li {
-    display: block;
-    margin: 0;
+  footer li.listHeading {
+      display: none;
+      margin: 0;
   }
-}
-footer li a {
-  color: #fff;
-  font-size: 13px;
-}
-.custom-dropdown {
-  background-color: transparent;
-}
-footer a svg {
-  font-size: 25px;
-}
-.copyright {
-  font-size: 12px;
+
+  footer li.listFooter{
+      display: none;
+      margin: 0px;
+  }
+  
+  footer li.mob{
+      display: block;
+  }
 }
