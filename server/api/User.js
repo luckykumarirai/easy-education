@@ -4,6 +4,9 @@ const router = express.Router();
 //Mongodb user model:
 const User = require("./../models/User");
 
+//MongoDb contactUS schema:
+const ContactSchema = require("./../models/ContactUsModel")
+
 //Password encryption
 const bcrypt = require("bcrypt");
 
@@ -132,5 +135,32 @@ router.post("/Signin", (req, res) => {
       });
   }
 });
+
+
+//Route: ContactUs
+router.post("/ContactUsSubmit", (req, res) => {
+  let { email, first_name,last_name,message,contact } = req.body;
+  email = email.trim();
+  first_name = first_name.trim();
+  last_name = last_name.trim();
+  contact = contact.trim();
+  const newMessage = new ContactSchema({first_name,last_name,email,contact,message});
+  newMessage
+                .save()
+                .then((result) => {
+                  res.json({
+                    status: "Success",
+                    message: "Message Submitted Successfully",
+                    data: result,
+                  });
+                })
+                .catch((err) => {
+                  res.json({
+                    status: "Failed",
+                    message: "An error occured while submitting signup",
+                  });
+                });
+            })
+
 
 module.exports = router;
