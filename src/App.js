@@ -26,7 +26,7 @@ function App() {
         <Route path="/Privacy-policy" exact component={PrivacyPolicy} />
       </Switch>
     </Router>
-    {/* <Footer /> */}
+    <Footer />
     </div>
   );
 }
