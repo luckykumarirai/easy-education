@@ -1,24 +1,33 @@
-.home video{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    object-fit: cover;
-    /* mix-blend-mode: overlay; */
+.home video {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  /* mix-blend-mode: overlay; */
 }
 
-#offer-range{
-    color: white;
-    font-size: 15px;
+#offer-range {
+  color: white;
+  font-size: 15px;
 }
 
-#offer-range:hover{
-    transform: scale(1.1);
+#offer-range:hover {
+  transform: scale(1.1);
 }
 
-#offer-range>img{
-    width:50px;
-    height: 50px;
+#offer-range > img {
+  width: 50px;
+  height: 50px;
+}
+
+.home {
+  background-image: url("https://images.unsplash.com/3/doctype-hi-res.jpg?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxMjA3fDB8MXxzZWFyY2h8MTJ8fGVkdWNhdGlvbnx8MHx8fA&ixlib=rb-1.2.1&q=85");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(194, 181, 194, 0.596);
+  background-blend-mode: lighten;
 }

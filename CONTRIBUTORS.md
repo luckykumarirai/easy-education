@@ -28,9 +28,13 @@
          <li><a href='https://github.com/luckykumarirai/easy-education/pull/19'>#19</a></li>
       </ul>
    </td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/luckykumarirai/easy-education/pull/46'>#46</a></li>
+      </ul>
+   </td>
    <td></td>
-   <td></td>
-   <td>100</td>
+   <td>300</td>
 </tr>
 
 <tr>
@@ -68,8 +72,12 @@
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/27'>#27</a></li>
         </ul>
    </td>
-    <td></td>
-   <td>500</td>
+    <td>
+       <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/48'>#48</a></li>
+        </ul>
+   </td>
+   <td>1000</td>
 </tr>
 <tr>
    <td>khushi935</td>
@@ -107,12 +115,16 @@
    <td></td>
    <td></td>
    <td>
-   <ul>
+      <ul>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/38'>#38</a></li>
       </ul>
    </td>
-    <td></td>
-   <td>200</td>
+    <td>
+       <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/45'>#45</a></li>
+      </ul>
+   </td>
+   <td>700</td>
 </tr>
 
 </table>
