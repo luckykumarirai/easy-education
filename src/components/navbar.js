@@ -61,7 +61,7 @@ function NavBar(){
       id="dropdown-menu-align-responsive-1"
     >
       <Dropdown.Item eventKey="1" className="sign-up-login">Student</Dropdown.Item>
-      <Dropdown.Item eventKey="2" className="sign-up-login">Teacher</Dropdown.Item>
+      <Dropdown.Item eventKey="2" className="sign-up-login" href="/teacherSignup">Teacher</Dropdown.Item>
     </SplitButton>
   </div>
   <div className="signup ml-3 mr-3">
@@ -71,7 +71,7 @@ function NavBar(){
       id="dropdown-menu-align-responsive-2"
     >
       <Dropdown.Item eventKey="1" className="sign-up-login">student</Dropdown.Item>
-      <Dropdown.Item eventKey="2" className="sign-up-login">Teacher</Dropdown.Item>
+      <Dropdown.Item eventKey="2" className="sign-up-login" href="/teacherSignin">Teacher</Dropdown.Item>
     </SplitButton>
   </div>
 

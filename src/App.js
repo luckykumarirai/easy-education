@@ -6,6 +6,8 @@ import {Home} from "./components/home";
 import {Contact} from "./components/Contact";
 // import Signup from "./components/Signup";
 // import Signin from "./components/Signin";
+import TeacherSignup from "./components/TeacherSignup";
+import TeacherSignin from "./components/TeacherSignin"
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Aboutus from "./components/Aboutus";
 import TermsAndConditions from "./components/TermsAndConditions";
@@ -13,13 +15,15 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#000000"}}>
     <NavBar />
     <Router>
       <Switch>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/home" component={Home}/>
         <Route path="/Aboutus" exact component={Aboutus} />
+        <Route path="/teacherSignup" exact component={TeacherSignup} />
+        <Route path="/teacherSignin" exact component={TeacherSignin} />
         {/* <Route exact path="/Signup" component={Signup}/>
         <Route exact path="/Signin" component={Signin}/> */}
         <Route path="/Terms-and-Conditions" exact component={TermsAndConditions} />
