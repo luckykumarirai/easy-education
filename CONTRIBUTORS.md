@@ -68,8 +68,12 @@
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/27'>#27</a></li>
         </ul>
    </td>
-    <td></td>
-   <td>500</td>
+    <td>
+       <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/48'>#48</a></li>
+        </ul>
+   </td>
+   <td>1000</td>
 </tr>
 <tr>
    <td>khushi935</td>
