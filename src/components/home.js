@@ -1,14 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import Footer from "./Footer";
+import { Card, Container, Row, Col, Button} from "react-bootstrap";
 import "./home.css";
 const Home = () => {
   return (
     <>
       <div class="home">
-        {/* <video loop muted autoPlay preload="auto" >
-            <source src="video/video.mp4" type="video/mp4"/>
-            </video> */}
         <div class="col d-flex justify-content-center">
           <Card
             style={{
@@ -74,7 +72,7 @@ const Home = () => {
           </Container>
         </div>
       </div>
-      {/* <Footer   /> */}
+      <Footer />
     </>
   );
 };

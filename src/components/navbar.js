@@ -1,39 +1,81 @@
-import {Navbar,Nav,NavDropdown,FormControl,Button,Form,InputGroup} from 'react-bootstrap';
+import {Navbar,Nav,NavDropdown,Button,DropdownButton,ButtonGroup,Dropdown,SplitButton} from 'react-bootstrap';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as Icon from 'react-bootstrap-icons';
-
+import "./navbar.css";
 
 function NavBar(){
   return (
     <>
-      <Navbar bg="dark" expand="lg" variant="dark">
-        <Navbar.Brand href="/home" className="navlink" style={{color:'orange'}}>Easy education</Navbar.Brand>
+      <Navbar expand="lg" variant="dark" id="navBar">
+        <Navbar.Brand href="/home">      
+        <img
+        src="/images/Project_logo.png"
+        width="140"
+        height="70"
+        className="d-inline-block align-top ml-3"
+        alt="Easy Education logo"/>
+      </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <NavDropdown  className="navlink" title="Tutorials" id="collasible-nav-dropdown" active>
-            <NavDropdown.Item className="textstyle" href="#action/3.1">Alorithms</NavDropdown.Item>
-            <NavDropdown.Item className="textstyle" href="#action/3.2">Data Structure</NavDropdown.Item>
-            <NavDropdown.Item className="textstyle" href="#action/3.3">Web Technologies</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item className="textstyle" href="#action/3.4">Gate</NavDropdown.Item>
+          <NavDropdown title="Engineering" id="collasible-nav-dropdown" className="ml-3 mr-3" active>
+
+<NavDropdown title="CSE" id="collasible-nav-dropdown" className="hello ml-3 mr-3" active>
+          <div className="CSE-drop-items">
+            <NavDropdown.Item className="drop-item" href="#">Data Structures</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Algorithm</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Programming Language</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Core Subjects</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Web Technology</NavDropdown.Item>
+            </div>
+  </NavDropdown>
+
+            <NavDropdown.Item className="drop-item" href="#">IT</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">EXTC</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">ECE</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className="navlink" href="/Aboutus" active >About Us</Nav.Link>
-          <Nav.Link className="navlink" href="/contact" active >Contact Us</Nav.Link>
+
+          <NavDropdown title="School" id="collasible-nav-dropdown" className="ml-3 mr-3" active>
+            <NavDropdown.Item className="drop-item" href="#">IX</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">X</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">XI</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">XII</NavDropdown.Item>
+          </NavDropdown>
+
+          <NavDropdown title="Competitive" id="collasible-nav-dropdown" className="ml-3 mr-3" active>
+            <NavDropdown.Item className="drop-item" href="#">Quiz</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Bank</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">JEE Main</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">Gate</NavDropdown.Item>
+            <NavDropdown.Item className="drop-item" href="#">SSC</NavDropdown.Item>
+          </NavDropdown>
+
+          <Nav.Link className="" href="#" active >Blog</Nav.Link>
           </Nav>
-          <Form inline>
-          <InputGroup>
-            <FormControl placeholder="Search..." aria-label="Username"  aria-describedby="search"/>
-            <InputGroup.Prepend>
-                <InputGroup.Text type="submit" id="search" style={{borderTopRightRadius:'3px',borderBottomRightRadius:'3px'}}><Icon.Search/></InputGroup.Text>
-            </InputGroup.Prepend>
-            </InputGroup>
-          </Form>
-          <Nav>
-            <Nav.Link  href="/Signin" active ><Button variant="success"><Icon.BoxArrowInRight/> Sign In</Button></Nav.Link>
-            <Nav.Link  href="/Signup" active ><Button variant="warning"><Icon.PersonPlus/> Sign Up</Button></Nav.Link>
-          </Nav>
+
+<div className="signup ml-3 mr-3">
+    <SplitButton variant="outline-primary"
+    menuAlign={{ lg: 'right' }}
+      title="Sign Up"
+      id="dropdown-menu-align-responsive-1"
+    >
+      <Dropdown.Item eventKey="1" className="sign-up-login">Student</Dropdown.Item>
+      <Dropdown.Item eventKey="2" className="sign-up-login">Teacher</Dropdown.Item>
+    </SplitButton>
+  </div>
+  <div className="signup ml-3 mr-3">
+    <SplitButton variant="outline-success"
+      menuAlign={{ lg: 'left' }}
+      title="Sign In"
+      id="dropdown-menu-align-responsive-2"
+    >
+      <Dropdown.Item eventKey="1" className="sign-up-login">student</Dropdown.Item>
+      <Dropdown.Item eventKey="2" className="sign-up-login">Teacher</Dropdown.Item>
+    </SplitButton>
+  </div>
+
+          
         </Navbar.Collapse>
       </Navbar>
       </>

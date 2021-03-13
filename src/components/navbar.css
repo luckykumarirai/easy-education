@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    font-family: Nunito;
+    font-size: large;
+}
+#navBar,.drop-item, .dropdown-menu, .show, .sign-up-login{
+    border-radius: 0;
+    background: black;
+    color: white;
+    font-size: medium;
+}
+.CSE-items{
+    position: absolute;
+    background-color: black;
+    left: 100%;
+    width: 300px;
+    top: 15px;
+}
+
+.CSE-drop-items{
+    width: inherit;
+    background: black;
+    position: absolute;
+    left: 89%;
+    top: -30px;
+}
+
+.hello .dropdown-menu{
+    padding: 0;
+    border: none;
+    font-size: small;
+}
+.hello{
+    font-size: small;
+}
+
+.signup .btn{
+    border-radius: 0;
+}
+.signup .dropdown-item:hover{
+    background:#6EE2CD ;
+}
+.signup .btn-outline-primary {
+    color: #6EE2CD;
+    border-color: #6EE2CD;
+}
+.signup .btn-outline-success{
+    color: #74FC3C;
+    border-color: #74FC3C;
+}
+.nav-link:hover, .drop-item:hover {
+    background:#05CFBF;
+    color: white;
+}
+@media only screen and (max-width: 539px) {
+    .CSE-drop-items{
+        width: inherit;
+        background: black;
+        position: absolute;
+        left: 0%;
+        top: 40px;
+        z-index: 999;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .CSE-drop-items{
+        width: inherit;
+        background: black;
+        position: absolute;
+        left: 15%;
+        top: 3px;
+        z-index: 999;
+    }
+    .signup:last-child{
+        margin: 10px 0 0px 0;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .signup:last-child{
+        margin: 10px 0 0px 0;
+    }
+}
