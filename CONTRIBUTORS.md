@@ -107,12 +107,16 @@
    <td></td>
    <td></td>
    <td>
-   <ul>
+      <ul>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/38'>#38</a></li>
       </ul>
    </td>
-    <td></td>
-   <td>200</td>
+    <td>
+       <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/45'>#45</a></li>
+      </ul>
+   </td>
+   <td>700</td>
 </tr>
 
 </table>
