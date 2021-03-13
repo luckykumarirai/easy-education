@@ -95,11 +95,17 @@
 <tr>
    <td>Abhinav Agrawal</td>
    <td><a href='https://github.com/abhinav5481'>abhinav5481</a></td>
-   <td></td>
+   <td>
+      <ul>
+      <li><a href='https://github.com/luckykumarirai/easy-education/pull/55'>#55</a></li>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/50'>#50</a></li>
+        </ul>
+   </td>
    <td></td>
    <td>
      <ul>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/32'>#32</a></li>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/54'>#54</a></li>
       </ul>
    </td>
    <td>
@@ -107,7 +113,7 @@
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/37'>#37</a></li>
         </ul>
    </td>
-   <td>700</td>
+   <td>1100</td>
 </tr>
 <tr>
    <td>Raman Thakur</td>
