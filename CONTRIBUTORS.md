@@ -28,9 +28,13 @@
          <li><a href='https://github.com/luckykumarirai/easy-education/pull/19'>#19</a></li>
       </ul>
    </td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/luckykumarirai/easy-education/pull/46'>#46</a></li>
+      </ul>
+   </td>
    <td></td>
-   <td></td>
-   <td>100</td>
+   <td>300</td>
 </tr>
 
 <tr>
