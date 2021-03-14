@@ -2,52 +2,53 @@ const express = require("express");
 const router = express.Router();
 
 //Mongodb user model:
-const User = require("./../models/User");
-
-//MongoDb contactUS schema:
-const ContactSchema = require("./../models/ContactUsModel")
-
-//MongoDb ContactUs footer schema
-const ContactSchemaFooter = require("./../models/ContactUsFooter")
+const Teacher = require("./../models/Teacher");
 
 //Password encryption
 const bcrypt = require("bcrypt");
 
-//Route: Signup
+//Route: Teacher Signup
 router.post("/Signup", (req, res) => {
-  let { email, password } = req.body;
+  let { email, password,name,qualification,experience } = req.body;
   email = email.trim();
   password = password.trim();
+  name = name.trim();
+  qualification = qualification.trim();
+  experience = experience.trim();
 
-  if (email == "" || password == "") {
+  if (email == "" || password == "" || name == "" || qualification == "" || experience == "") {
     res.json({
       status: "Failed",
       message: "Empty input fields",
     });
   } else {
-    //check if the user already exists
-    User.find({ email })
+    //check if the Teacher already exists
+    Teacher.find({ email })
       .then((result) => {
         if (result.length) {
-          //A user already exists
+          //A Teacher already exists
           res.json({
             status: "Failed",
-            message: "User already exists",
+            message: "Teacher already exists",
           });
         } else {
-          // Create new User
+          // Create new Teacher
 
           //Passowrd handeling
           const saltRounds = 10;
           bcrypt
             .hash(password, saltRounds)
             .then((hashedPassword) => {
-              const newUser = new User({
+              const newTeacher = new Teacher({
                 email,
                 password: hashedPassword,
+                name,
+                qualification,
+                experience
+
               });
 
-              newUser
+              newTeacher
                 .save()
                 .then((result) => {
                   res.json({
@@ -66,7 +67,7 @@ router.post("/Signup", (req, res) => {
             .catch((err) => {
               res.json({
                 status: "Failed",
-                message: "An Error while hshing password",
+                message: "An Error while hashing password",
               });
             });
         }
@@ -75,7 +76,7 @@ router.post("/Signup", (req, res) => {
         console.log(err);
         res.json({
           status: "Failed",
-          message: "An error occured while checking if user exists",
+          message: "An error occured while checking if Teacher exists",
         });
       });
   }
@@ -93,11 +94,11 @@ router.post("/Signin", (req, res) => {
       message: "Empty credentials supplied",
     });
   } else {
-    // Check if user exist
-    User.find({ email })
+    // Check if Teacher exist
+    Teacher.find({ email })
       .then((data) => {
         if (data.length) {
-          // User exists
+          // Teacher exists
 
           const hashedPassword = data[0].password;
           bcrypt
@@ -133,60 +134,14 @@ router.post("/Signin", (req, res) => {
       .catch((err) => {
         res.json({
           status: "FAILED",
-          message: "An error occurred while checking for existing user",
+          message: "An error occurred while checking for existing Teacher",
         });
       });
   }
 });
 
 
-//Route: ContactUs
-router.post("/ContactUsSubmit", (req, res) => {
-  let { email, first_name,last_name,message,contact } = req.body;
-  email = email.trim();
-  first_name = first_name.trim();
-  last_name = last_name.trim();
-  contact = contact.trim();
-  const newMessage = new ContactSchema({first_name,last_name,email,contact,message});
-  newMessage
-                .save()
-                .then((result) => {
-                  res.json({
-                    status: "Success",
-                    message: "Message Submitted Successfully",
-                    data: result,
-                  });
-                })
-                .catch((err) => {
-                  res.json({
-                    status: "Failed",
-                    message: "An error occured while submitting signup",
-                  });
-                });
-            })
 
-
-//Route: ContactUs
-router.post("/ContactUsFooterSubmit", (req, res) => {
-  let { email, message } = req.body;
-  email = email.trim();
-  const newMessage = new ContactSchemaFooter({email,message});
-  newMessage
-                .save()
-                .then((result) => {
-                  res.json({
-                    status: "Success",
-                    message: "Message Submitted Successfully",
-                    data: result,
-                  });
-                })
-                .catch((err) => {
-                  res.json({
-                    status: "Failed",
-                    message: "An error occured while submitting the message",
-                  });
-                });
-            })
 
 
 

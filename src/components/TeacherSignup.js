@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 
 
 
@@ -11,6 +12,7 @@ class TeacherSignup extends Component {
     super();
     this.state = {
       email: null,
+      name: null,
       password: null,
       passwordConfirmation: null,
       signupError: null,
@@ -39,6 +41,9 @@ class TeacherSignup extends Component {
       case "experience":
         this.setState({ experience: e.target.value });
         break;
+      case "name":
+          this.setState({ name: e.target.value });
+          break;
       default:
         break;
     }
@@ -54,13 +59,21 @@ class TeacherSignup extends Component {
       this.setState({ signupError: "Passwords do not match" });
       return;
     }
-    if(this.state.email !== null && this.state.password !== null && this.state.qualification != null && this.state.experience != null){
-        alert("Signup successfull, please login now.");}
-        else{
-            alert("Please fill up all the details.");
+  
+    axios.post('http://localhost:5000/teacher/Signup',{
+      email:  this.state.email,
+      password: this.state.password,
+      name: this.state.name,
+      qualification: this.state.qualification,
+      experience: this.state.experience
+    })
+    .then((res) => {
+      console.log(res);
+     alert(res.data.message);
     
-        }
-    
+    }).catch((err) => {
+      console.log(err);
+    })
   };
 
   render() {
@@ -89,6 +102,23 @@ class TeacherSignup extends Component {
           </Card.Header>
           <Card.Body>
             <Form onSubmit={(e) => this.submitSignup(e)}>
+
+            <Form.Group
+                style={{ textAlign: "left" }}
+                controlId="formBasicName"
+                onChange={(e) => this.userTyping("name", e)}
+              >
+                <Form.Label style={{ fontWeight: "bold" }}>
+                  Name
+                </Form.Label>
+                <Form.Control
+                  style={{ borderColor: "#6EE2CD", color: "#000000" }}
+                  type="text"
+                  placeholder="Enter Your Name"
+                />
+              </Form.Group>
+
+
               <Form.Group
                 style={{ textAlign: "left" }}
                 controlId="formBasicEmail"
