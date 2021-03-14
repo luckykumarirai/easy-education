@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import * as Icon from "react-bootstrap-icons";
 import "./Footer.css";
 import React, { Component } from "react";
+import axios from 'axios';
 
 class Footer extends Component {
   constructor() {
@@ -31,11 +32,26 @@ class Footer extends Component {
 
   submitContactUsFooter = (e) => {
     e.preventDefault();
-    if (this.state.email !== null && this.state.message !== null) {
-      alert("Thanks for contacting us, We will get back to you soon!");
-    } else {
-      alert("Please fill up all the details!");
-    }
+    // if (this.state.email !== null && this.state.message !== null) {
+    //   alert("Thanks for contacting us, We will get back to you soon!");
+    // } else {
+    //   alert("Please fill up all the details!");
+    // }
+
+
+    axios.post('http://localhost:5000/user/ContactUsFooterSubmit',{
+        email: this.state.email,
+        message: this.state.message
+      })
+      .then((res) => {
+        console.log(res.data);
+        alert("Message submitted successfully!")
+      
+      }).catch((err) => {
+        alert(err);
+        console.log(err);
+      })
+      
   };
 
   render() {

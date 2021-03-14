@@ -7,6 +7,9 @@ const User = require("./../models/User");
 //MongoDb contactUS schema:
 const ContactSchema = require("./../models/ContactUsModel")
 
+//MongoDb ContactUs footer schema
+const ContactSchemaFooter = require("./../models/ContactUsFooter")
+
 //Password encryption
 const bcrypt = require("bcrypt");
 
@@ -162,5 +165,27 @@ router.post("/ContactUsSubmit", (req, res) => {
                 });
             })
 
+
+//Route: ContactUs
+router.post("/ContactUsFooterSubmit", (req, res) => {
+  let { email, message } = req.body;
+  email = email.trim();
+  const newMessage = new ContactSchemaFooter({email,message});
+  newMessage
+                .save()
+                .then((result) => {
+                  res.json({
+                    status: "Success",
+                    message: "Message Submitted Successfully",
+                    data: result,
+                  });
+                })
+                .catch((err) => {
+                  res.json({
+                    status: "Failed",
+                    message: "An error occured while submitting the message",
+                  });
+                });
+            })
 
 module.exports = router;
