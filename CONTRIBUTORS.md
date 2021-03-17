@@ -101,7 +101,6 @@
       <li><a href='https://github.com/luckykumarirai/easy-education/pull/55'>#55</a></li>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/50'>#50</a></li>
          <li><a href='https://github.com/luckykumarirai/easy-education/pull/57'>#57</a></li>
-
         </ul>
    </td>
    <td>
