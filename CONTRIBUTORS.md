@@ -106,6 +106,7 @@
      <ul>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/32'>#32</a></li>
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/54'>#54</a></li>
+         <li><a href='https://github.com/luckykumarirai/easy-education/pull/59'>#59</a></li>
       </ul>
    </td>
    <td>
@@ -113,7 +114,7 @@
         <li><a href='https://github.com/luckykumarirai/easy-education/pull/37'>#37</a></li>
         </ul>
    </td>
-   <td>1100</td>
+   <td>1300</td>
 </tr>
 <tr>
    <td>Raman Thakur</td>
