@@ -54,6 +54,10 @@ class Signup extends Component {
       password: this.state.password
     })
     .then((res) => {
+      if(res.data.status == 'Failed'){
+        alert(res.data.message)
+        return;
+      }
       console.log(res);
      alert(res.data.message);
     

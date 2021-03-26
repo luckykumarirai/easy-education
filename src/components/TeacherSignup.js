@@ -68,7 +68,11 @@ class TeacherSignup extends Component {
       experience: this.state.experience
     })
     .then((res) => {
-      console.log(res);
+      if(res.data.status == 'Failed'){
+        alert(res.data.message)
+        return;
+      }
+     console.log(res);
      alert(res.data.message);
     
     }).catch((err) => {
@@ -213,6 +217,7 @@ class TeacherSignup extends Component {
                 Register
               </Button>
             </Form>
+            
           </Card.Body>
         </Card>
       </>
