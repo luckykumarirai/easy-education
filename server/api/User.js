@@ -16,15 +16,36 @@ const bcrypt = require("bcrypt");
 //Route: Signup
 router.post("/Signup", (req, res) => {
   let { email, password } = req.body;
-  email = email.trim();
-  password = password.trim();
 
-  if (email == "" || password == "") {
+  const emailRegx = new RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
+  const pwdRegex = new RegExp(/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/)
+
+ 
+
+  if (email == null || password == null) {
     res.json({
       status: "Failed",
       message: "Empty input fields",
     });
   } else {
+    email = email.trim();
+    password = password.trim();
+
+    // check if email is in correct format
+    if(!emailRegx.test(email)){
+      return res.json({
+        status: "Failed",
+        message: "Enter a valid email",
+      });
+    }
+    // Check if the password is in correct format or not
+    if(!pwdRegex.test(password)){
+      return res.json({
+        status: "Failed",
+        message: "Your password must contain a minimum of 8 letter, with at least a symbol, upper and lower case letters and a number",
+      });
+    }
+
     //check if the user already exists
     User.find({ email })
       .then((result) => {
@@ -84,15 +105,16 @@ router.post("/Signup", (req, res) => {
 //Route: Signin
 router.post("/Signin", (req, res) => {
   let { email, password } = req.body;
-  email = email.trim();
-  password = password.trim();
-
-  if (email == "" || password == "") {
+ 
+  if (email == null || password == null) {
     res.json({
-      status: "FAILED",
+      status: "Failed",
       message: "Empty credentials supplied",
     });
   } else {
+    email = email.trim();
+    password = password.trim();
+  
     // Check if user exist
     User.find({ email })
       .then((data) => {
@@ -112,27 +134,27 @@ router.post("/Signin", (req, res) => {
                 });
               } else {
                 res.json({
-                  status: "FAILED",
+                  status: "Failed",
                   message: "Invalid password entered!",
                 });
               }
             })
             .catch((err) => {
               res.json({
-                status: "FAILED",
+                status: "Failed",
                 message: "An error occurred while comparing passwords",
               });
             });
         } else {
           res.json({
-            status: "FAILED",
+            status: "Failed",
             message: "Invalid credentials entered!",
           });
         }
       })
       .catch((err) => {
         res.json({
-          status: "FAILED",
+          status: "Failed",
           message: "An error occurred while checking for existing user",
         });
       });
