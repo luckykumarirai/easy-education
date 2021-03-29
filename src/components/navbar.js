@@ -60,7 +60,7 @@ function NavBar(){
       title="Sign Up"
       id="dropdown-menu-align-responsive-1"
     >
-      <Dropdown.Item eventKey="1" className="sign-up-login">Student</Dropdown.Item>
+      <Dropdown.Item eventKey="1" className="sign-up-login" href="/Signup">Student</Dropdown.Item>
       <Dropdown.Item eventKey="2" className="sign-up-login" href="/teacherSignup">Teacher</Dropdown.Item>
     </SplitButton>
   </div>
@@ -70,10 +70,13 @@ function NavBar(){
       title="Sign In"
       id="dropdown-menu-align-responsive-2"
     >
-      <Dropdown.Item eventKey="1" className="sign-up-login">student</Dropdown.Item>
+      <Dropdown.Item eventKey="1" className="sign-up-login" href="/Signin">student</Dropdown.Item>
       <Dropdown.Item eventKey="2" className="sign-up-login" href="/teacherSignin">Teacher</Dropdown.Item>
     </SplitButton>
   </div>
+  <div className="signup ml-3 mr-3">
+<Button  variant="outline-primary"  id="dropdown-menu-align-responsive-2" href="#">Logout</Button>
+    </div>
 
           
         </Navbar.Collapse>
