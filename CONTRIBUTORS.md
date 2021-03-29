@@ -4,7 +4,35 @@
 
 <table>
 <tr><th>Name</th><th>Github</th><th>Good First Issue (50) </th><th>Easy (100)</th><th>Medium (200)</th><th>Hard (500)</th><th>Total</th><tr>
-   
+  <tr>
+   <td>Abhinav Agrawal</td>
+   <td><a href='https://github.com/abhinav5481'>abhinav5481</a></td>
+   <td> </td>
+   <td>
+       <ul>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/55'>#55</a></li>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/50'>#50</a></li>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/57'>#57</a></li>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/61'>#61</a></li>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/63'>#63</a></li>
+            <li><a href='https://github.com/luckykumarirai/easy-education/pull/67'>#67</a></li>
+        </ul>
+   </td>
+   <td>
+     <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/32'>#32</a></li>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/54'>#54</a></li>
+         <li><a href='https://github.com/luckykumarirai/easy-education/pull/59'>#59</a></li>
+         <li><a href='https://github.com/luckykumarirai/easy-education/pull/66'>#66</a></li>
+      </ul>
+   </td>
+   <td>
+      <ul>
+        <li><a href='https://github.com/luckykumarirai/easy-education/pull/37'>#37</a></li>
+        </ul>
+   </td>
+   <td>1900</td>
+</tr> 
 <tr>
    <td> Achyut Kumar Panda</td>
    <td><a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
@@ -91,35 +119,6 @@
    <td></td>
     <td></td>
    <td>100</td>
-</tr>
-<tr>
-   <td>Abhinav Agrawal</td>
-   <td><a href='https://github.com/abhinav5481'>abhinav5481</a></td>
-   <td> </td>
-   <td>
-       <ul>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/55'>#55</a></li>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/50'>#50</a></li>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/57'>#57</a></li>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/61'>#61</a></li>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/63'>#63</a></li>
-            <li><a href='https://github.com/luckykumarirai/easy-education/pull/67'>#67</a></li>
-        </ul>
-   </td>
-   <td>
-     <ul>
-        <li><a href='https://github.com/luckykumarirai/easy-education/pull/32'>#32</a></li>
-        <li><a href='https://github.com/luckykumarirai/easy-education/pull/54'>#54</a></li>
-         <li><a href='https://github.com/luckykumarirai/easy-education/pull/59'>#59</a></li>
-         <li><a href='https://github.com/luckykumarirai/easy-education/pull/66'>#66</a></li>
-      </ul>
-   </td>
-   <td>
-      <ul>
-        <li><a href='https://github.com/luckykumarirai/easy-education/pull/37'>#37</a></li>
-        </ul>
-   </td>
-   <td>1700</td>
 </tr>
 <tr>
    <td>Raman Thakur</td>
