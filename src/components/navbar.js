@@ -74,6 +74,9 @@ function NavBar(){
       <Dropdown.Item eventKey="2" className="sign-up-login" href="/teacherSignin">Teacher</Dropdown.Item>
     </SplitButton>
   </div>
+  <div className="signup ml-3 mr-3">
+<Button  variant="outline-primary"  id="dropdown-menu-align-responsive-2" href="#">Logout</Button>
+    </div>
 
           
         </Navbar.Collapse>
