@@ -8,7 +8,7 @@ function NavBar(){
   return (
     <>
       <Navbar expand="lg" variant="dark" id="navBar">
-        <Navbar.Brand href="/home">      
+        <Navbar.Brand href="/">      
         <img
         src="/images/Project_logo.png"
         width="140"
