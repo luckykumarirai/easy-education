@@ -12,8 +12,13 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Aboutus from "./components/Aboutus";
 import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import React, { useEffect } from 'react'
+import ReactDOM from 'react-dom'
 
 function App() {
+  useEffect(() => {
+    document.title = "Easy Education"
+  }, [])
   return (
     <div className="App" style={{backgroundColor: "#000000"}}>
     <NavBar />
