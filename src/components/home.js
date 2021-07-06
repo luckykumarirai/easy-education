@@ -72,7 +72,7 @@ const Home = () => {
           </Container>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 };
