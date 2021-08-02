@@ -74,8 +74,8 @@ nodemon
 
 <p align="center">
 <a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/crosswoc.png" width="25%"></a>
-<a href="https://www.pclubsummerofcode.in/"><img src="./readme_assets/psoc.PNG" width="25%" height="200px"></a>  
- <p align="center">
+<a href="https://www.pclubsummerofcode.in/"><img src="./readme_assets/psoc.png" width="25%" ></a>  
+<p align="center">
 <a href="https://lgmsoc.co/"><img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png"  width="45%" height="200px"></img></a>
 </p>
 </p>
