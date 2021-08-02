@@ -74,7 +74,25 @@ nodemon
 
 <p align="center">
 <a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/crosswoc.png" width="25%"></a>
+<a href="https://www.pclubsummerofcode.in/"><img src="./readme_assets/psoc.PNG" width="25%" height="200px"></a>  
+ <p align="center">
+<a href="https://lgmsoc.co/"><img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png"  width="45%" height="200px"></img></a>
 </p>
+</p>
+
+## ❤️&nbsp; Project Admin & Mentor
+
+<table>
+<tr>
+    <td align="center" thead="admin"><a href="https://github.com/luckykumarirai"><img alt="" src="" width="100px;" alt="admin"/><br /><sub><b> Lucky kumari </b></sub></a></td></tr>
+  </tr>
+  </table>
+
+# Contributors:
+<a href="https://github.com/luckykumarirai/easy-education/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=luckykumarirai/easy-education" />
+</a>
+
 
 ### Thanks :heart:
 
