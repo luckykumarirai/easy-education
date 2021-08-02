@@ -84,7 +84,14 @@ nodemon
 
 <table>
 <tr>
-    <td align="center" thead="admin"><a href="https://github.com/luckykumarirai"><img alt="" src="" width="100px;" alt="admin"/><br /><sub><b> Lucky kumari </b></sub></a></td></tr>
+    <td align="center" thead="admin"><a href="https://github.com/luckykumarirai"><img alt="" src="" width="100px;" alt="admin"/><br /><sub><b> Lucky kumari </b></sub></a></td>
+  <td align="center" thead="mentor"><a href="https://github.com/AshuKV"><img alt="" src="https://avatars.githubusercontent.com/u/48694961?v=4
+" width="100px;" alt="admin"/><br /><sub><b>Ashutosh Verma</b></sub></a></td>
+   <td align="center" thead="mentor"><a href="https://github.com/goelesha"><img alt="" src="https://avatars.githubusercontent.com/u/54431564?v=4
+" width="100px;" alt="admin"/><br /><sub><b>Esha Goel</b></sub></a></td>
+  
+  </tr>
+  
   </tr>
   </table>
 
