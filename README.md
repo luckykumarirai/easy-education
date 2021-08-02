@@ -33,7 +33,7 @@ Join Discord : https://discord.gg/xkVDdnxuGy
 | MongoDB   | React      | Node.js    |
 | &nbsp;   | React-bootstrap | Express.js |
 
-## Local Setup Instructions computer
+## Local Setup Instructions 💻 
 
 
 1.Fork [this](https://github.com/luckykumarirai/easy-education.git) repository.
