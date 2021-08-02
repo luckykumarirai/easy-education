@@ -73,8 +73,8 @@ nodemon
 ## Open Source Programs we have been associated with: 
 
 <p align="center">
-<a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/crosswoc.png" width="25%"></a>
-<a href="https://www.pclubsummerofcode.in/"><img src="./readme_assets/psoc.png" width="25%" ></a>  
+<a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/crosswoc.png" width="25%" height="25%"></a>
+<a href="https://www.pclubsummerofcode.in/"><img src="./readme_assets/psoc.png" width="25%" height="25% ></a>  
 <p align="center">
 <a href="https://lgmsoc.co/"><img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png"  width="45%" height="200px"></img></a>
 </p>
@@ -84,11 +84,9 @@ nodemon
 
 <table>
 <tr>
-    <td align="center" thead="admin"><a href="https://github.com/luckykumarirai"><img alt="" src="" width="100px;" alt="admin"/><br /><sub><b> Lucky kumari </b></sub></a></td>
-  <td align="center" thead="mentor"><a href="https://github.com/AshuKV"><img alt="" src="https://avatars.githubusercontent.com/u/48694961?v=4
-" width="100px;" alt="admin"/><br /><sub><b>Ashutosh Verma</b></sub></a></td>
-   <td align="center" thead="mentor"><a href="https://github.com/goelesha"><img alt="" src="https://avatars.githubusercontent.com/u/54431564?v=4
-" width="100px;" alt="admin"/><br /><sub><b>Esha Goel</b></sub></a></td>
+    <td align="center" thead="admin"><a href="https://github.com/luckykumarirai"><img alt="" src="./readme_assets/lucky.jpeg" width="100px;" alt="admin"/><br /><sub><b> Lucky kumari </b></sub></a></td>
+  <td align="center" thead="mentor"><a href="https://github.com/AshuKV"><img alt="" src="https://avatars.githubusercontent.com/u/48694961?v=400&u=022a70168ed33225af6aed2a40d2c3778a36cbfa&v=4" width="100px;" alt="admin"/><br /><sub><b>Ashutosh Verma</b></sub></a></td>
+   <td align="center" thead="mentor"><a href="https://github.com/goelesha"><img alt="" src="https://avatars.githubusercontent.com/u/54431564?v=400&u=022a70168ed33225af6aed2a40d2c3778a36cbfa&v=4" width="100px;" alt="admin"/><br /><sub><b>Esha Goel</b></sub></a></td>
   
   </tr>
   
