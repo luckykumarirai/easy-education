@@ -1,5 +1,5 @@
 import {Navbar,Nav,NavDropdown,Button,DropdownButton,ButtonGroup,Dropdown,SplitButton} from 'react-bootstrap';
-import '../App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as Icon from 'react-bootstrap-icons';
 import "./navbar.css";
@@ -51,7 +51,7 @@ function NavBar(){
             <NavDropdown.Item className="drop-item" href="#">SSC</NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link className="" href="#" active >Blog</Nav.Link>
+          <Nav.Link className="" href="addconent" active >AddContent</Nav.Link>
           </Nav>
 
 <div className="signup ml-3 mr-3">

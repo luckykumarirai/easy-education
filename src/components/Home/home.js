@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 import { Card, Container, Row, Col, Button} from "react-bootstrap";
 import "./home.css";
 const Home = () => {

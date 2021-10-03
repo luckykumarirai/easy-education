@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Aboutus.css";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 

@@ -71,7 +71,7 @@ class Signup extends Component {
     return (
       <>
           
-                  <Card style={{ width: "40vw", marginLeft: "auto", marginRight: "auto", marginTop:'4vh'}}>
+        <Card style={{ width: "40vw", marginLeft: "auto", marginRight: "auto", marginTop:'4vh'}}>
           <Card.Header
             style={{
               backgroundColor: "#6c6c6c",

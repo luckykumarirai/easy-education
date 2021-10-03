@@ -1,17 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import NavBar from "./components/navbar";
-import Footer from "./components/Footer";
-import {Home} from "./components/home";
-import {Contact} from "./components/Contact";
-import Signup from "./components/Signup";
-import Signin from "./components/Signin";
-import TeacherSignup from "./components/TeacherSignup";
-import TeacherSignin from "./components/TeacherSignin"
+import NavBar from "./components/navbar/navbar";
+import Footer from "./components/Footer/Footer";
+import {Home} from "./components/Home/home";
+import {Contact} from "./components/Contactus/Contact";
+import Signup from "./components/Signup/Signup";
+import Signin from "./components/Sigin/Signin";
+import TeacherSignup from "./components/Sigin/TeacherSignup/TeacherSignup";
+import TeacherSignin from "./components/Signup/TeacherLogin/TeacherSignin"
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Aboutus from "./components/Aboutus";
-import TermsAndConditions from "./components/TermsAndConditions";
-import PrivacyPolicy from "./components/PrivacyPolicy";
+import Aboutus from "./components/Aboutus/Aboutus";
+import TermsAndConditions from "./components/Privacy/TermsAndConditions";
+import PrivacyPolicy from "./components/Privacy/PrivacyPolicy";
+import Addcontent from "./components/AddContent/addcontent";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/addconent" component={Addcontent} />
         <Route exact path="/" component={Home}/>
         <Route path="/Aboutus" exact component={Aboutus} />
         <Route path="/teacherSignup" exact component={TeacherSignup} />
